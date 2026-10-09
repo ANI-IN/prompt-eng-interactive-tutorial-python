@@ -1,0 +1,12 @@
+# Claude API (official Anthropic Python SDK) and .env loading
+anthropic>=1.12.1,<2
+python-dotenv>=1.0
+
+# Jupyter: run the notebooks in VS Code or JupyterLab
+jupyterlab>=4.2
+ipykernel>=6.29
+nbclient>=0.10
+nbformat>=5.10
+
+# Offline test suite
+pytest>=8.0

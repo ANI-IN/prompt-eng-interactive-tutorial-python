@@ -1,0 +1,18 @@
+# Secrets: never commit (matches .env in any folder, e.g. notebooks/.env)
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS / editor / tooling
+.DS_Store
+.vscode/
+.idea/
+.claude/
